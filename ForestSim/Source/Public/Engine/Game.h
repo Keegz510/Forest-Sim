@@ -5,6 +5,13 @@
 struct WindowSettings
 {
 public:
+	WindowSettings(int width, int height, bool fs, std::string title)
+	{
+		ScreenWidth = width;
+		ScreenHeight = height;
+		bIsFullscreen = fs;
+		WindowTitle = title;
+	}
 	int ScreenWidth;
 	int ScreenHeight;
 	bool bIsFullscreen;
