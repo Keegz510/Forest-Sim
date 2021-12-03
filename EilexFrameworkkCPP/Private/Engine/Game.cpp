@@ -8,8 +8,9 @@ Game::~Game()
 {
 }
 
-void Game::Initialize()
+void Game::Initialize(const WindowSettings windowSettings)
 {
+	window = windowSettings;
 }
 
 void Game::BaseUpdate()
