@@ -21,10 +21,10 @@ public:
 class Game
 {
 public:
-	Game();
+	Game(const WindowSettings windowSettings);
 	~Game();
 
-	void Initialize(const WindowSettings windowSettings);
+	void Initialize();
 	void BaseUpdate();
 
 	/// Returns the current deltaTime

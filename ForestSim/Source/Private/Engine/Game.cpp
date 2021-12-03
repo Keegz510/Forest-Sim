@@ -1,18 +1,17 @@
-#include "../../pch.h"
 #include "../../Public/Engine/Game.h"
 #include <raylib.h>
 
-Game::Game()
+Game::Game(const WindowSettings windowSettings) : window(windowSettings)
 {
+	
 }
 
 Game::~Game()
 {
 }
 
-void Game::Initialize(const WindowSettings windowSettings)
+void Game::Initialize()
 {
-	window = windowSettings;
 
 	// Create the new window
 	InitWindow(window.ScreenWidth, window.ScreenHeight, ((char*)&window.WindowTitle));

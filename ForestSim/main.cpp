@@ -20,12 +20,12 @@
 ********************************************************************************************/
 
 #include "raylib.h"
-#include "Engine/Game.h"
+#include "Source/Public/Engine/Game.h"
 
 int main(int argc, char* argv[])
 {
-    Game* game = new Game();
-    game->Initialize(WindowSettings(600, 450, false, "Test Window"));
+    Game* game = new Game(WindowSettings(600, 450, false, "Test Window"));
+    game->Initialize();
     game->BaseUpdate();
 
 
