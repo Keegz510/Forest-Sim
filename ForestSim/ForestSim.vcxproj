@@ -172,6 +172,11 @@
   <ItemGroup>
     <None Include=".gitignore" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EilexFrameworkkCPP\EilexFrameworkkCPP.vcxproj">
+      <Project>{d687e982-e560-415f-a6e2-3500c3bf2287}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
