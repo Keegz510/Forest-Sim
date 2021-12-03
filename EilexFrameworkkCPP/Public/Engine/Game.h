@@ -1,11 +1,14 @@
 #pragma once
 
+#include <string>
+
 struct WindowSettings
 {
 public:
 	int ScreenWidth;
 	int ScreenHeight;
 	bool bIsFullscreen;
+	std::string WindowTitle;
 };
 
 class Game
