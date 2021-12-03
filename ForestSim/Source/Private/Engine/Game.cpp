@@ -14,7 +14,7 @@ void Game::Initialize()
 {
 
 	// Create the new window
-	InitWindow(window.ScreenWidth, window.ScreenHeight, ((char*)&window.WindowTitle));
+	InitWindow(window.ScreenWidth, window.ScreenHeight, window.WindowTitle);
 	SetTargetFPS(60);
 }
 

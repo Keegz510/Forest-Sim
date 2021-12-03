@@ -5,7 +5,7 @@
 struct WindowSettings
 {
 public:
-	WindowSettings(int width, int height, bool fs, std::string title)
+	WindowSettings(int width, int height, bool fs, char* title)
 	{
 		ScreenWidth = width;
 		ScreenHeight = height;
@@ -15,7 +15,7 @@ public:
 	int ScreenWidth;
 	int ScreenHeight;
 	bool bIsFullscreen;
-	std::string WindowTitle;
+	char* WindowTitle;
 };
 
 class Game

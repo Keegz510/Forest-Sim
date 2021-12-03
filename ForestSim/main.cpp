@@ -24,7 +24,7 @@
 
 int main(int argc, char* argv[])
 {
-    Game* game = new Game(WindowSettings(600, 450, false, "Test Window"));
+    Game* game = new Game(WindowSettings(900, 750, false, (char*)"Hello World"));
     game->Initialize();
     game->BaseUpdate();
 
