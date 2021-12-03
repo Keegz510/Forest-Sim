@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ForestSim", "ForestSim\ForestSim.vcxproj", "{2E3D51FF-AC03-4E5D-8620-92BBC023D0A8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EilexFrameworkkCPP", "EilexFrameworkkCPP\EilexFrameworkkCPP.vcxproj", "{D687E982-E560-415F-A6E2-3500C3BF2287}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{2E3D51FF-AC03-4E5D-8620-92BBC023D0A8}.Release|x64.Build.0 = Release|x64
 		{2E3D51FF-AC03-4E5D-8620-92BBC023D0A8}.Release|x86.ActiveCfg = Release|Win32
 		{2E3D51FF-AC03-4E5D-8620-92BBC023D0A8}.Release|x86.Build.0 = Release|Win32
+		{D687E982-E560-415F-A6E2-3500C3BF2287}.Debug|x64.ActiveCfg = Debug|x64
+		{D687E982-E560-415F-A6E2-3500C3BF2287}.Debug|x64.Build.0 = Debug|x64
+		{D687E982-E560-415F-A6E2-3500C3BF2287}.Debug|x86.ActiveCfg = Debug|Win32
+		{D687E982-E560-415F-A6E2-3500C3BF2287}.Debug|x86.Build.0 = Debug|Win32
+		{D687E982-E560-415F-A6E2-3500C3BF2287}.Release|x64.ActiveCfg = Release|x64
+		{D687E982-E560-415F-A6E2-3500C3BF2287}.Release|x64.Build.0 = Release|x64
+		{D687E982-E560-415F-A6E2-3500C3BF2287}.Release|x86.ActiveCfg = Release|Win32
+		{D687E982-E560-415F-A6E2-3500C3BF2287}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
