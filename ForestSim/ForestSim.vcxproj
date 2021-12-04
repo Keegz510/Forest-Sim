@@ -169,12 +169,14 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Source\Private\Engine\Game.cpp" />
+    <ClCompile Include="Source\Private\Engine\Globals.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Public\Engine\Game.h" />
+    <ClInclude Include="Source\Public\Engine\Globals.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
