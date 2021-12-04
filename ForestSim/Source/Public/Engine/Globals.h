@@ -14,6 +14,7 @@ public:
 
 	static Game* GetGlobalGameRef() { return globalGame; }
 
+	static float DeltaTime() { return globalGame->GetDeltaTime(); }
 private:
 
 	static Game* globalGame;
